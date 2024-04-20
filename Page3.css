@@ -1,0 +1,105 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html,body{ 
+    height: 100%;
+    width: 100%;
+}
+#page3{
+    height: 100%;
+    width: 100%;
+}
+#page3 #nav{ 
+    height: fit-content;
+    width: 100%;
+    padding-left: 30px;
+    display: flex;
+    align-items: flex-start;
+}
+#page3 #nav #img{ 
+    height: 100px;
+    width: 100px;
+
+    background-image: url(./dribbble_pink.png);
+    background-position: center;
+    background-size: cover;
+}
+#page3 #nav #back{ 
+    height: 45px; 
+    width: 45px;
+    border-radius: 10px;
+    margin: 28px 35px;
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#page3 #div{ 
+    text-align: center; 
+}
+#page3 h1{ 
+    padding-bottom: 16px;
+}
+#page3 p{ 
+    color: #7e7d81;
+}
+#page3 #div #middle{ 
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+#page3 #div .imgcontainer{ 
+    height: 250px;
+    width: 250px;
+    border-radius: 18px;
+    text-align: center;
+    border: 1px solid rgb(226, 224, 224);
+}
+.imgcontainer img{
+    height: 150px;
+    width: 230px;
+}
+.imgcontainer h2{ 
+    font-size: 20px;
+}
+.imgcontainer .circle{ 
+    height: 24px;
+    width: 24px;
+    margin-left: 115px;
+    margin-top: 8px;
+    border-radius: 50%;
+    border: 1px solid rgb(226, 224, 224);
+}
+#circli.active{
+    background-color: rgb(215, 57, 154); /* Color when all fields are filled */
+
+}
+#div button{ 
+    width: 220px;
+    color: #fff;
+    font-size: 16px;
+    margin-top: 60px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #F8B8D0;
+}
+#Next{
+    text-align: center;
+    height: 50px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 95%;
+    object-fit: cover;
+    cursor: pointer;
+    background-color: rgb(223, 209, 209);
+}
+#Next.active {
+    background-color: rgb(215, 57, 154); /* Color when all fields are filled */
+}
